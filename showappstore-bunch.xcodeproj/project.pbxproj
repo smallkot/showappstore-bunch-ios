@@ -26,7 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A9B5373A1A3497CC00FAE096 /* PBXContainerItemProxy */ = {
+		9D1BCEDD1A3723A40075C315 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A9B537351A3497CC00FAE096 /* native-gateway-common.xcodeproj */;
 			proxyType = 2;
@@ -51,7 +51,7 @@
 		372B7FE72C5AC612C5415826 /* libShowAppstoreBrunch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libShowAppstoreBrunch.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96FE4301A34570F00A09894 /* ShowAppstoreBunch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowAppstoreBunch.h; path = "showappstore-bunch/ShowAppstoreBunch.h"; sourceTree = SOURCE_ROOT; };
 		A96FE4311A34570F00A09894 /* ShowAppstoreBunch.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ShowAppstoreBunch.mm; path = "showappstore-bunch/ShowAppstoreBunch.mm"; sourceTree = SOURCE_ROOT; };
-		A9B537351A3497CC00FAE096 /* native-gateway-common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "native-gateway-common.xcodeproj"; path = "../native-gateway-common-ios/native-gateway-common.xcodeproj"; sourceTree = "<group>"; };
+		A9B537351A3497CC00FAE096 /* native-gateway-common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "native-gateway-common.xcodeproj"; path = "../native-gateway-common/native-gateway-common.xcodeproj"; sourceTree = "<group>"; };
 		A9B5373F1A34989D00FAE096 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -95,10 +95,10 @@
 			path = "share-bunch";
 			sourceTree = "<group>";
 		};
-		A9B537361A3497CC00FAE096 /* Products */ = {
+		9D1BCED91A3723A40075C315 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A9B5373B1A3497CC00FAE096 /* libNativeGatewayCommon.a */,
+				9D1BCEDE1A3723A40075C315 /* libNativeGatewayCommon.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,7 +148,7 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = A9B537361A3497CC00FAE096 /* Products */;
+					ProductGroup = 9D1BCED91A3723A40075C315 /* Products */;
 					ProjectRef = A9B537351A3497CC00FAE096 /* native-gateway-common.xcodeproj */;
 				},
 			);
@@ -161,11 +161,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		A9B5373B1A3497CC00FAE096 /* libNativeGatewayCommon.a */ = {
+		9D1BCEDE1A3723A40075C315 /* libNativeGatewayCommon.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libNativeGatewayCommon.a;
-			remoteRef = A9B5373A1A3497CC00FAE096 /* PBXContainerItemProxy */;
+			remoteRef = 9D1BCEDD1A3723A40075C315 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
