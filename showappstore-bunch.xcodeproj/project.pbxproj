@@ -48,7 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		372B7FE72C5AC612C5415826 /* libShowAppstoreBrunch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libShowAppstoreBrunch.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		372B7FE72C5AC612C5415826 /* libShowAppstoreBunch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libShowAppstoreBunch.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96FE4301A34570F00A09894 /* ShowAppstoreBunch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowAppstoreBunch.h; path = "showappstore-bunch/ShowAppstoreBunch.h"; sourceTree = SOURCE_ROOT; };
 		A96FE4311A34570F00A09894 /* ShowAppstoreBunch.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ShowAppstoreBunch.mm; path = "showappstore-bunch/ShowAppstoreBunch.mm"; sourceTree = SOURCE_ROOT; };
 		A9B537351A3497CC00FAE096 /* native-gateway-common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "native-gateway-common.xcodeproj"; path = "../native-gateway-common-ios/native-gateway-common.xcodeproj"; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 		372B701FCF6808733767C6B8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				372B7FE72C5AC612C5415826 /* libShowAppstoreBrunch.a */,
+				372B7FE72C5AC612C5415826 /* libShowAppstoreBunch.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,7 +120,7 @@
 			);
 			name = "showappstore-bunch";
 			productName = ShareBunch;
-			productReference = 372B7FE72C5AC612C5415826 /* libShowAppstoreBrunch.a */;
+			productReference = 372B7FE72C5AC612C5415826 /* libShowAppstoreBunch.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -225,7 +225,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -266,7 +266,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -282,9 +282,9 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../native-gateway-common-ios/native-gateway-common/**",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = ShowAppstoreBrunch;
+				PRODUCT_NAME = ShowAppstoreBunch;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -297,9 +297,9 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../native-gateway-common-ios/native-gateway-common/**",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = ShowAppstoreBrunch;
+				PRODUCT_NAME = ShowAppstoreBunch;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -307,14 +307,14 @@
 		9D9BFEB019EC59F400CDD190 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = ShareBunch;
+				PRODUCT_NAME = ShowAppstoreBunch;
 			};
 			name = Debug;
 		};
 		9D9BFEB119EC59F400CDD190 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = ShareBunch;
+				PRODUCT_NAME = ShowAppstoreBunch;
 			};
 			name = Release;
 		};
