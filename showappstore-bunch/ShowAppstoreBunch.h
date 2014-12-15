@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 #import <StoreKit/StoreKit.h>
 
-@interface ShowAppstoreBunch : NSObject
+@interface ShowAppstoreBunch : UIViewController<SKStoreProductViewControllerDelegate>//NSObject
 + (id)sharedInstance;
 @end

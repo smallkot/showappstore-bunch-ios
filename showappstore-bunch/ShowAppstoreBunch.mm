@@ -34,15 +34,11 @@
 
 - (void)showAppstore:(NSString *)text {
     
-    //NSArray *postItems = @[text];
-    
-    //UIActivityViewController *activityVC = [[UIActivityViewController alloc] initWithActivityItems:postItems applicationActivities:nil];
-    
     SKStoreProductViewController *storeProductViewController = [[SKStoreProductViewController alloc] init];
     
     // Configure View Controller
-    //[storeProductViewController setDelegate:[[UIApplication sharedApplication] keyWindow].rootViewController];
-    [storeProductViewController loadProductWithParameters:@{SKStoreProductParameterITunesItemIdentifier : @"594467299"} completionBlock:^(BOOL result, NSError *error) {
+    [storeProductViewController setDelegate:self];
+    [storeProductViewController loadProductWithParameters:@{SKStoreProductParameterITunesItemIdentifier : text} completionBlock:^(BOOL result, NSError *error) {
         if (error) {
             NSLog(@"Error %@ with User Info %@.", error, [error userInfo]);
             
@@ -50,6 +46,15 @@
     }];
     
     [[[UIApplication sharedApplication] keyWindow].rootViewController presentViewController:storeProductViewController animated:YES completion:nil];
+    
+}
+
+- (void)productViewControllerDidFinish:(SKStoreProductViewController *)viewController
+{
+    if (viewController)
+    {
+        [[[UIApplication sharedApplication] keyWindow].rootViewController dismissViewControllerAnimated:YES completion:nil];
+    }
 }
 
 

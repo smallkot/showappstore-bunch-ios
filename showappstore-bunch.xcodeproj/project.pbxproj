@@ -25,16 +25,6 @@
 		A9B537401A34989D00FAE096 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B5373F1A34989D00FAE096 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		9D1BCEDD1A3723A40075C315 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A9B537351A3497CC00FAE096 /* native-gateway-common.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 372B7A39A6BEB6BEDF91B827;
-			remoteInfo = "native-gateway-common";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		372B719B8EFA55461840F892 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -51,7 +41,6 @@
 		372B7FE72C5AC612C5415826 /* libShowAppstoreBunch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libShowAppstoreBunch.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96FE4301A34570F00A09894 /* ShowAppstoreBunch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowAppstoreBunch.h; path = "showappstore-bunch/ShowAppstoreBunch.h"; sourceTree = SOURCE_ROOT; };
 		A96FE4311A34570F00A09894 /* ShowAppstoreBunch.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ShowAppstoreBunch.mm; path = "showappstore-bunch/ShowAppstoreBunch.mm"; sourceTree = SOURCE_ROOT; };
-		A9B537351A3497CC00FAE096 /* native-gateway-common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "native-gateway-common.xcodeproj"; path = "../native-gateway-common/native-gateway-common.xcodeproj"; sourceTree = "<group>"; };
 		A9B5373F1A34989D00FAE096 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -79,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				A9B5373F1A34989D00FAE096 /* StoreKit.framework */,
-				A9B537351A3497CC00FAE096 /* native-gateway-common.xcodeproj */,
 				372B701FCF6808733767C6B8 /* Products */,
 				372B78D6BDD2677B223DA236 /* showappstore-bunch */,
 			);
@@ -93,14 +81,6 @@
 			);
 			name = "showappstore-bunch";
 			path = "share-bunch";
-			sourceTree = "<group>";
-		};
-		9D1BCED91A3723A40075C315 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9D1BCEDE1A3723A40075C315 /* libNativeGatewayCommon.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,12 +126,6 @@
 			mainGroup = 372B75C456C4235105F6B387;
 			productRefGroup = 372B701FCF6808733767C6B8 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 9D1BCED91A3723A40075C315 /* Products */;
-					ProjectRef = A9B537351A3497CC00FAE096 /* native-gateway-common.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				372B780BD2926FF321ED9181 /* showappstore-bunch */,
@@ -159,16 +133,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		9D1BCEDE1A3723A40075C315 /* libNativeGatewayCommon.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libNativeGatewayCommon.a;
-			remoteRef = 9D1BCEDD1A3723A40075C315 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		9D9BFEB219EC5A1100CDD190 /* ShellScript */ = {
